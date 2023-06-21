@@ -20,7 +20,7 @@ const detailRoutes=require("./routers/detail");
 const deleteRoutes=require("./routers/delete");
 
 
-const MONGODB_URI="mongodb+srv://punit:collegeapp@cluster0.vdoj8.mongodb.net/?retryWrites=true&w=majority";
+const MONGODB_URI="mongodb+srv://shamshadco19:Pet6jK6Eabv7agrV@cluster0.vuyfkwp.mongodb.net/?retryWrites=true&w=majority";
 
 const store=new MongoDBStore({uri:MONGODB_URI,collection:"sessions"});
 
