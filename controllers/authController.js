@@ -36,7 +36,6 @@ exports.postLogin=async(req,res)=>{
     }
     else
     {
-        alert("wrong username or password");
-        res.redirect("/login");
+        res.send("Wrong username or password");
     }
 };
